@@ -9,7 +9,8 @@ print("Nome:", nome)
 print("Idade:", idade, "anos")
 print("Altura:", altura, "metros")
 print("Tem filhos:", "sim" if tem_filhos else "não")
-
+print("- - - - - - - - - - - - - - - - - - -")
+print(f'Olá {nome}, sua idade é {idade}, tem {altura} m de altura sobre filhos? {"Sim,"if tem_filhos else "não"} tem.')
 
 
 
