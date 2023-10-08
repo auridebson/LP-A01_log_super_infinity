@@ -1,6 +1,10 @@
+# A variável nome é um exemplo de um tipo STRING
 nome = input("Seu nome: ")
+# a variável idade é um exemplo de um tipo INT
 idade = int(input("Sua idade: "))
+# a variável altura é um exemplo do tipo FLOAT
 altura = float(input("Altura(m): "))
+# a variável tem_filhos é um exemplo do tipo BOOL
 tem_filhos = input("Tem filhos? (Sim/Não): ").lower() == "sim"
 
 print("- - - - - - - - - - - - - - - - - - -")
