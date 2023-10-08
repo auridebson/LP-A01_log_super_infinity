@@ -1,13 +1,14 @@
-nome = input("Digite seu nome: ")
-idade = int(input("Digite sua idade: "))
-altura = float(input("Digite sua altura em metros: "))
-tem_filhos = input("Você tem filhos? (Sim/Não): ").lower() == "sim"
+nome = input("Seu nome: ")
+idade = int(input("Sua idade: "))
+altura = float(input("Altura(m): "))
+tem_filhos = input("Tem filhos? (Sim/Não): ").lower() == "sim"
 
-print("\nInformações do Usuário:")
+print("- - - - - - - - - - - - - - - - - - -")
+print("\nInformações coletadas:")
 print("Nome:", nome)
 print("Idade:", idade, "anos")
 print("Altura:", altura, "metros")
-print("Tem filhos:", "Sim" if tem_filhos else "Não")
+print("Tem filhos:", "sim" if tem_filhos else "não")
 
 
 
