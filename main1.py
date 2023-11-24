@@ -37,9 +37,23 @@ carrinho = [
 # 3
 # total_carrinho = 0
 
-for item in carrinho:
-    total_carrinho += item[1]
+# for item in carrinho:
+#     total_carrinho += item[1]
 
-ln(40)
-print(f"O valor total do carrinho é R$ {total_carrinho}")
-ln(40)
+# ln(40)
+# print(f"O valor total do carrinho é R$ {total_carrinho}")
+# ln(40)
+
+#  4
+palavras = [
+    "Python",
+    "é",
+    "uma",
+    "linguagem",
+    "poderosa"
+    
+]
+
+for palavra in palavras:
+    if (len(palavra) > 4):
+        print(f"|{palavra}| com {len(palavra)} letras")
