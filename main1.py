@@ -10,8 +10,13 @@ familia = [
     "guilherme"
 ]
 
+fam_removidos = []
+
 ln(30)
-familia.pop(-2)
-for membro in familia:
-    print(membro)
+
+while len(familia) != 0:
+    fam_removidos.append(familia.pop())
+
+print(familia)
 ln(30)
+print(fam_removidos)
