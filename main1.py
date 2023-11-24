@@ -51,9 +51,11 @@ palavras = [
     "uma",
     "linguagem",
     "poderosa"
-    
 ]
 
+ln(30)
 for palavra in palavras:
-    if (len(palavra) > 4):
-        print(f"|{palavra}| com {len(palavra)} letras")
+    # if (len(palavra) > 4):
+    #     print(f"|{palavra}| com {len(palavra)} letras")
+
+random.choice(palavras)
